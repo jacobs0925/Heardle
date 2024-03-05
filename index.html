@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta charset="UTF-8">
+    <title>Heardle V2</title>
+</head>
+
+<body>
+    <div id="game-over-container" class="game-over-container">
+        <div id="game-over-window" class="game-over-window">
+
+        </div>
+        <div class="game-over-visit-container">
+            <div id="game-over-button" class="custom-button game-over-visit-button">
+
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="header-link-container">
+        </div>
+    </div>
+    <div class="body">
+        <div class="heardle-container">
+            <div class="heardle-game">
+                <div class="heardle-header">
+                    HeardleV2
+                </div>
+                <div class="heardle-guesses" id="heardle-guesses">
+                    <div class="heardle-guess">
+
+                    </div>
+                    <div class="heardle-guess">
+
+                    </div>
+                    <div class="heardle-guess">
+
+                    </div>
+                    <div class="heardle-guess">
+
+                    </div>
+                    <div class="heardle-guess">
+
+                    </div>
+                    <div class="heardle-guess">
+
+                    </div>
+                </div>
+                <div id="heardle-progress-bar" class="heardle-progress-bar">
+                    <div class="progress-slice" id="progress-slice">
+
+                    </div>
+                </div>
+                <div class="heardle-inputs">
+                    <div id="heardle-player" class="heardle-player">
+                        <div id="time-start" class="time-start">
+                            0:00
+                        </div>
+                        <img class="time-play" id="play-button" src="./images/play.png">
+                        <audio id="audio-player">
+                        </audio>
+                        <div class="time-end">
+                            0:16
+                        </div>
+                    </div>
+                    <div class="heardle-input-bar">
+                        <div class="search-bar-autofill" id="search-bar-autofill">
+                        </div>
+                        <input autocomplete="off" id="heardle-search-bar" class="input-bar" type="text">
+                    </div>
+                    <div class="heardle-button-container">
+
+                        <div id="heardle-butons-bar" class="heardle-buttons">
+                            <div id="skip-button" class="bounce custom-button">
+                                Skip
+                            </div>
+                            <div id="submit-button" class="bounce custom-button">
+                                Submit
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+    </div>
+    </div>
+    <script type="module" src="./scripts/index.js"></script>
+    <script type="module" src="./scripts/CookieManager.js"></script>
+</body>
+
+</html>
